@@ -7,7 +7,7 @@ use autodie;
 use Moose;
 
 # ABSTRACT: Turn markdown into phpBB code
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use Markdent::Parser;
 use Markdown::phpBB::Handler;
@@ -41,7 +41,7 @@ Markdown::phpBB - Turn markdown into phpBB code
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -64,6 +64,12 @@ heavy lifting.
 
 Takes a single string in markdown format, and returns the equivalent
 string in phpBB / BBcode.
+
+=head1 SEE ALSO
+
+L<md2phpbb> - A stand-alone script for converting markdown to phpBB / BBcode.
+
+L<phpbb2md>, L<Markdown::phpBB::Handler>, L<Markdent>
 
 =head1 BUGS
 

@@ -6,7 +6,7 @@ use autodie;
 
 # PODNAME: phpbb2md
 # ABSTRACT: Quick'n'dirty conversion of phpBB to markdown
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 {
@@ -39,7 +39,7 @@ phpbb2md - Quick'n'dirty conversion of phpBB to markdown
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

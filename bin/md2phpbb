@@ -6,7 +6,7 @@ use autodie;
 
 # ABSTRACT: Turn markdown into phpBB code
 # PODNAME: md2phpbb
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 use Markdown::phpBB;
@@ -27,7 +27,7 @@ md2phpbb - Turn markdown into phpBB code
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

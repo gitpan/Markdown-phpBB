@@ -9,7 +9,7 @@ use warnings;
 use Moose;
 use Data::Dumper;
 
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 with 'Markdent::Role::Handler';
@@ -64,6 +64,7 @@ my %tag = (
     link           => [ qw([url]                         [/url])        ],
     header         => [   "[b][size]",                  "[/size][/b]\n" ],
     code           => [   "[font=courier]",             "[/font]"       ],
+    blockquote     => [ qw([quote]                       [/quote])      ],
 );
 
 my @heading_size = (36, 24, 18, 14, 12);
@@ -121,7 +122,7 @@ Markdown::phpBB::Handler - Turn Markdown into phpBB code
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
